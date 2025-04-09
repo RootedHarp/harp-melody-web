@@ -82,8 +82,8 @@ const Home = () => {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1619496308320-4c28a4ca0772?q=80&w=2069&auto=format&fit=crop" 
-                alt="Harpist performing" 
+                src="/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png" 
+                alt="Christine Welden with harp" 
                 className="rounded-lg shadow-lg w-full h-auto object-cover" 
               />
             </div>

@@ -12,8 +12,8 @@ const About = () => {
         <div className="flex flex-col md:flex-row gap-12 mb-16">
           <div className="md:w-1/3">
             <img 
-              src="https://images.unsplash.com/photo-1621368286550-f54551f39b91?q=80&w=1974&auto=format&fit=crop" 
-              alt="Harpist portrait" 
+              src="/lovable-uploads/2d82c718-6b82-456f-87dc-854ae1bbe5b0.png" 
+              alt="Christine Welden with harp" 
               className="rounded-lg shadow-md w-full h-auto object-cover"
             />
           </div>
@@ -87,7 +87,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1593713888259-d58563a73c3d?q=80&w=2072&auto=format&fit=crop" 
+                src="/lovable-uploads/51eb80b4-8203-4dd3-8422-558925feec65.png" 
                 alt="Concert grand harp" 
                 className="rounded-lg shadow-md w-full h-auto object-cover mb-4"
               />
@@ -100,8 +100,8 @@ const About = () => {
             
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1593713887232-947193699876?q=80&w=2070&auto=format&fit=crop" 
-                alt="Lever harp" 
+                src="/lovable-uploads/cdb38149-6867-4564-b5e6-c181d3069609.png" 
+                alt="Formal performance setting" 
                 className="rounded-lg shadow-md w-full h-auto object-cover mb-4"
               />
               <h4 className="font-serif text-xl text-harp-navy mb-2">Celtic Lever Harp</h4>

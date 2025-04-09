@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="flex flex-col items-center md:items-start">
             <div className="flex items-center space-x-2 mb-4">
               <Music className="h-8 w-8 text-harp-gold" />
-              <span className="font-serif text-xl">Harp Elegance</span>
+              <span className="font-serif text-xl">Abiding Harp</span>
             </div>
             <p className="text-sm text-gray-300 text-center md:text-left">
               Bringing the elegant sounds of the harp to performances, education, and custom arrangements.
@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-700 text-center text-sm text-gray-400">
-          <p>© {currentYear} Harp Elegance. All rights reserved.</p>
+          <p>© {currentYear} Abiding Harp. All rights reserved.</p>
         </div>
       </div>
     </footer>
