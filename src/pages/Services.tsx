@@ -111,7 +111,8 @@ const Services = () => {
               <h3 className="font-serif text-2xl text-harp-navy mb-4">Instruction Services</h3>
               <p className="text-gray-600 mb-6">
                 Personalized harp lessons designed to nurture technical skill, musical expression, and a lifelong love 
-                of this beautiful instrument. Lessons are available in-person or online.
+                of this beautiful instrument. Lessons are available online or in-person at the student's home, providing
+                flexible options to suit your schedule and learning style.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start">

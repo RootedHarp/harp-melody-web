@@ -1,4 +1,3 @@
-
 import { Music, BookOpen, FileMusic } from 'lucide-react';
 import SectionHeading from '@/components/SectionHeading';
 import Card from '@/components/Card';
@@ -102,29 +101,22 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* Share Your Experience Section (Replacing Testimonials) */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading subtitle="What clients and students have to say">
-            Testimonials
+          <SectionHeading subtitle="Share your thoughts about your experience">
+            Share Your Experience
           </SectionHeading>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
-              <p className="italic text-gray-600 mb-4">
-                "The beautiful harp music created the perfect ambiance for our wedding ceremony. 
-                Our guests were captivated, and we couldn't have asked for a more elegant soundtrack to our special day."
-              </p>
-              <p className="font-medium">— Sarah & Michael, Wedding Clients</p>
-            </div>
-            
-            <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
-              <p className="italic text-gray-600 mb-4">
-                "As someone who always wanted to learn the harp but never had the opportunity until adulthood, 
-                I'm amazed at how quickly I've progressed under such patient and skilled instruction."
-              </p>
-              <p className="font-medium">— James R., Adult Student</p>
-            </div>
+          <div className="bg-gray-50 p-8 rounded-lg shadow-sm text-center">
+            <p className="text-gray-600 mb-6">
+              Have you worked with me for a performance, taken lessons, or used one of my arrangements? 
+              I'd love to hear about your experience! Your feedback helps me improve my services 
+              and helps others learn more about what I offer.
+            </p>
+            <Button to="/contact" variant="primary">
+              Share Your Feedback
+            </Button>
           </div>
           
           <div className="text-center mt-10">
