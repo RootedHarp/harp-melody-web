@@ -57,7 +57,7 @@ export default {
 					gold: '#d4af37',
 					cream: '#f5f5dc',
 					blue: '#a6c1ee',
-					navy: '#4a5568',
+					navy: '#213056',
 					ivory: '#fffff0',
 				},
 				sidebar: {
@@ -114,13 +114,22 @@ export default {
 					'50%': {
 						transform: 'translateY(-5px)'
 					}
+				},
+				'subtle-grow': {
+					'0%, 100%': {
+						transform: 'scale(1)'
+					},
+					'50%': {
+						transform: 'scale(1.02)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.7s ease-out',
-				'subtle-float': 'subtle-float 5s ease-in-out infinite'
+				'subtle-float': 'subtle-float 5s ease-in-out infinite',
+				'subtle-grow': 'subtle-grow 6s ease-in-out infinite'
 			}
 		}
 	},

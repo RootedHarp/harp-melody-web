@@ -18,22 +18,22 @@ const About = () => {
             />
           </div>
           
-          <div className="md:w-2/3">
-            <h3 className="font-serif text-2xl text-harp-navy mb-4">My Story</h3>
+          <div className="md:w-2/3 vine-border pl-6">
+            <h3 className="font-serif text-2xl text-harp-navy mb-4">Christine Welden</h3>
             <p className="text-gray-600 mb-4">
               My journey with the harp began at the age of ten when I was captivated by its ethereal sound at a local concert. 
               What started as childhood fascination blossomed into a lifelong passion that has taken me from conservatory training 
               to performance stages across the country.
             </p>
             <p className="text-gray-600 mb-4">
-              After graduating with honors from the prestigious Eastman School of Music with a degree in Harp Performance, 
-              I pursued advanced studies in Paris, where I was exposed to both classical and contemporary harp techniques. 
-              This diverse training has informed my approach to both performance and teaching.
+              As a Christian harpist, I find deep inspiration in John 15, which speaks of abiding in Christ as branches to the vine. 
+              This scripture guides both my personal faith and my approach to music, reminding me that beautiful music flows from 
+              remaining connected to the source of all creativity.
             </p>
             <p className="text-gray-600">
               Today, I divide my time between performing at events, teaching students of all ages, and creating custom 
               arrangements that bring the beauty of the harp to a wide range of musical genres. My mission is to share 
-              the magic of this ancient instrument with as many people as possible, whether through the joy of a live 
+              the divine gift of music with as many people as possible, whether through the joy of a live 
               performance or the satisfaction of helping a student master a challenging piece.
             </p>
           </div>

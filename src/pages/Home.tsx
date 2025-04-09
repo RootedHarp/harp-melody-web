@@ -12,11 +12,11 @@ const Home = () => {
       <section className="pt-24 pb-20 hero-pattern">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-harp-navy mb-6 animate-fade-in">
-            Elegant Harp <span className="text-harp-gold">Performance</span> & <span className="text-harp-gold">Instruction</span>
+            Abiding <span className="text-harp-gold">Harp</span>
           </h1>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            Bringing the timeless beauty of harp music to your special occasions, 
-            offering expert instruction, and creating custom arrangements.
+            "I am the vine; you are the branches. If you remain in me and I in you, 
+            you will bear much fruit..." — John 15:5
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>
             <Button to="/contact" variant="primary" size="lg">
@@ -43,7 +43,7 @@ const Home = () => {
               className="animate-fade-in" 
               style={{ animationDelay: "0.1s" }}
             >
-              <p>Professional harp music for weddings, corporate events, private parties, and other special occasions.</p>
+              <p>Professional harp music for weddings, corporate events, private parties, church services, and other special occasions.</p>
               <Link to="/services" className="text-harp-gold font-medium inline-block mt-4 hover:underline">
                 Learn more
               </Link>
@@ -87,11 +87,11 @@ const Home = () => {
                 className="rounded-lg shadow-lg w-full h-auto object-cover" 
               />
             </div>
-            <div className="md:w-1/2">
-              <h2 className="font-serif text-3xl text-harp-navy mb-4">Experience the Magic of Live Harp Music</h2>
+            <div className="md:w-1/2 vine-border pl-6">
+              <h2 className="font-serif text-3xl text-harp-navy mb-4">Experience the Divine through Harp Music</h2>
               <p className="text-gray-600 mb-6">
                 The harp creates an atmosphere of elegance and tranquility that transforms any event into a 
-                memorable experience. With a repertoire spanning classical, contemporary, folk, and popular music, 
+                memorable experience. With a repertoire spanning sacred, classical, contemporary, folk, and popular music, 
                 I can tailor performances to perfectly complement your occasion.
               </p>
               <Button to="/gallery" variant="primary">
