@@ -1,9 +1,6 @@
-
 import SectionHeading from '@/components/SectionHeading';
-
 const About = () => {
-  return (
-    <div className="pt-24 pb-16">
+  return <div className="pt-24 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading subtitle="Learn more about my background and musical journey">
           About Me
@@ -11,11 +8,7 @@ const About = () => {
         
         <div className="flex flex-col md:flex-row gap-12 mb-16">
           <div className="md:w-1/3">
-            <img 
-              src="/lovable-uploads/2d82c718-6b82-456f-87dc-854ae1bbe5b0.png" 
-              alt="Christine Welden with harp" 
-              className="rounded-lg shadow-md w-full h-auto object-cover"
-            />
+            <img src="/lovable-uploads/2d82c718-6b82-456f-87dc-854ae1bbe5b0.png" alt="Christine Welden with harp" className="rounded-lg shadow-md w-full h-auto object-cover" />
           </div>
           
           <div className="md:w-2/3 vine-border pl-6">
@@ -82,8 +75,8 @@ const About = () => {
               <h4 className="font-serif text-xl text-harp-navy mb-3">Education</h4>
               <ul className="space-y-4">
                 <li>
-                  <p className="font-medium">Eastman School of Music</p>
-                  <p className="text-gray-600">Bachelor of Music, Harp Performance</p>
+                  <p className="font-medium">Oral Roberts University</p>
+                  <p className="text-gray-600">Bachelor of Music, Performance</p>
                 </li>
                 <li>
                   <p className="font-medium">Conservatoire National Supérieur de Musique de Paris</p>
@@ -121,11 +114,7 @@ const About = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
-              <img 
-                src="/lovable-uploads/51eb80b4-8203-4dd3-8422-558925feec65.png" 
-                alt="Concert grand harp" 
-                className="rounded-lg shadow-md w-full h-auto object-cover mb-4"
-              />
+              <img src="/lovable-uploads/51eb80b4-8203-4dd3-8422-558925feec65.png" alt="Concert grand harp" className="rounded-lg shadow-md w-full h-auto object-cover mb-4" />
               <h4 className="font-serif text-xl text-harp-navy mb-2">Concert Grand Harp</h4>
               <p className="text-gray-600">
                 Lyon & Healy Style 23 Gold with extended soundboard. This magnificent instrument produces a warm, 
@@ -134,11 +123,7 @@ const About = () => {
             </div>
             
             <div>
-              <img 
-                src="/lovable-uploads/cdb38149-6867-4564-b5e6-c181d3069609.png" 
-                alt="Formal performance setting" 
-                className="rounded-lg shadow-md w-full h-auto object-cover mb-4"
-              />
+              <img src="/lovable-uploads/cdb38149-6867-4564-b5e6-c181d3069609.png" alt="Formal performance setting" className="rounded-lg shadow-md w-full h-auto object-cover mb-4" />
               <h4 className="font-serif text-xl text-harp-navy mb-2">Celtic Lever Harp</h4>
               <p className="text-gray-600">
                 Dusty Strings FH36S, 36 strings. This versatile lever harp is ideal for Celtic music, folk traditions, 
@@ -148,8 +133,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default About;
