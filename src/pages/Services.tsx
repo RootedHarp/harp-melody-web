@@ -1,12 +1,9 @@
-
 import { CalendarDays, BookOpen, FileMusic, Users, Clock, CreditCard } from 'lucide-react';
 import SectionHeading from '@/components/SectionHeading';
 import Card from '@/components/Card';
 import Button from '@/components/Button';
-
 const Services = () => {
-  return (
-    <div className="pt-24 pb-16">
+  return <div className="pt-24 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading subtitle="Professional harp services for every occasion">
           Services
@@ -50,11 +47,7 @@ const Services = () => {
               </div>
             </div>
             <div>
-              <img 
-                src="https://images.unsplash.com/photo-1448422221562-104930d4993e?q=80&w=2070&auto=format&fit=crop" 
-                alt="Harp performance" 
-                className="rounded-lg shadow-lg w-full h-auto"
-              />
+              <img src="https://images.unsplash.com/photo-1448422221562-104930d4993e?q=80&w=2070&auto=format&fit=crop" alt="Harp performance" className="rounded-lg shadow-lg w-full h-auto" />
             </div>
           </div>
           
@@ -88,10 +81,7 @@ const Services = () => {
                   <Users className="h-5 w-5 text-harp-gold mr-2" />
                   Ensemble Options
                 </h5>
-                <p className="text-gray-600">
-                  Solo harp is most popular, but duo options with flute, violin, cello, or voice 
-                  are available through established chamber partnerships.
-                </p>
+                <p className="text-gray-600">Solo harp is most popular, but duo options with other instruments can also be arranged.</p>
               </div>
             </div>
           </div>
@@ -101,11 +91,7 @@ const Services = () => {
         <div className="mb-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
             <div className="order-2 md:order-1">
-              <img 
-                src="https://images.unsplash.com/photo-1598978554684-49c47ae19198?q=80&w=2070&auto=format&fit=crop" 
-                alt="Harp lesson" 
-                className="rounded-lg shadow-lg w-full h-auto"
-              />
+              <img src="https://images.unsplash.com/photo-1598978554684-49c47ae19198?q=80&w=2070&auto=format&fit=crop" alt="Harp lesson" className="rounded-lg shadow-lg w-full h-auto" />
             </div>
             <div className="order-1 md:order-2">
               <h3 className="font-serif text-2xl text-harp-navy mb-4">Instruction Services</h3>
@@ -125,7 +111,7 @@ const Services = () => {
                 </li>
                 <li className="flex items-start">
                   <BookOpen className="h-5 w-5 text-harp-gold mt-0.5 mr-2" />
-                  <span>Repertoire development across classical, folk, and contemporary styles</span>
+                  <span>Repertoire development across classical, folk, religious, and contemporary styles</span>
                 </li>
                 <li className="flex items-start">
                   <BookOpen className="h-5 w-5 text-harp-gold mt-0.5 mr-2" />
@@ -207,11 +193,7 @@ const Services = () => {
               </div>
             </div>
             <div>
-              <img 
-                src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?q=80&w=2070&auto=format&fit=crop" 
-                alt="Sheet music with harp" 
-                className="rounded-lg shadow-lg w-full h-auto"
-              />
+              <img src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?q=80&w=2070&auto=format&fit=crop" alt="Sheet music with harp" className="rounded-lg shadow-lg w-full h-auto" />
             </div>
           </div>
           
@@ -250,8 +232,6 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Services;
