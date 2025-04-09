@@ -32,7 +32,7 @@ const Contact = () => {
                 <Phone className="h-5 w-5 text-harp-gold mt-1 mr-3" />
                 <div>
                   <h4 className="font-medium mb-1">Phone</h4>
-                  <p className="text-gray-600">(555) 123-4567</p>
+                  <p className="text-gray-600">918-928-9315</p>
                 </div>
               </div>
               
@@ -40,8 +40,8 @@ const Contact = () => {
                 <MapPin className="h-5 w-5 text-harp-gold mt-1 mr-3" />
                 <div>
                   <h4 className="font-medium mb-1">Location</h4>
-                  <p className="text-gray-600">New York, NY</p>
-                  <p className="text-gray-600 text-sm mt-1">Available for performances throughout the Northeast and teaching both in-person and online</p>
+                  <p className="text-gray-600">Tulsa, Oklahoma</p>
+                  <p className="text-gray-600 text-sm mt-1">Available for performances throughout Oklahoma and teaching both in-person and online</p>
                 </div>
               </div>
               
@@ -55,7 +55,7 @@ const Contact = () => {
                         <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/>
                       </svg>
                     </a>
-                    <a href="#" className="text-gray-600 hover:text-harp-gold">
+                    <a href="https://www.youtube.com/@christinewelden" className="text-gray-600 hover:text-harp-gold">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.234l4.917 2.338-4.917 2.346v-4.684z"/>
                       </svg>
@@ -119,9 +119,9 @@ const Contact = () => {
         </div>
         
         <div className="rounded-lg overflow-hidden h-80">
-          {/* Replace with your preferred map service embed or a static image */}
+          {/* Updated the map embed to Tulsa, Oklahoma */}
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.11976397304903!3d40.697403442236946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sus!4v1649160274943!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206771.8886038468!2d-96.0692724478827!3d36.13914948661224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b692b8ddd12e8f%3A0xe76910c81bd96af7!2sTulsa%2C%20OK!5e0!3m2!1sen!2sus!4v1712697252900!5m2!1sen!2sus"
             width="100%"
             height="100%"
             style={{ border: 0 }}
