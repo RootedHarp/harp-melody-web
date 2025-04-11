@@ -24,7 +24,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               <Music className="h-8 w-8 text-harp-gold" />
-              <span className="font-serif text-xl text-harp-navy">Abiding Harp</span>
+              <span className="font-serif text-xl text-harp-navy">Rooted Harp</span>
             </Link>
           </div>
           

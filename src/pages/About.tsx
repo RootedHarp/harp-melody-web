@@ -1,3 +1,4 @@
+
 import SectionHeading from '@/components/SectionHeading';
 const About = () => {
   return <div className="pt-24 pb-16">
@@ -67,7 +68,7 @@ const About = () => {
           </p>
         </div>
         
-        <div className="mb-16">
+        <div>
           <SectionHeading>Musical Background</SectionHeading>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -79,12 +80,12 @@ const About = () => {
                   <p className="text-gray-600">Bachelor of Music, Performance</p>
                 </li>
                 <li>
-                  <p className="font-medium">Conservatoire National Supérieur de Musique de Paris</p>
-                  <p className="text-gray-600">Advanced Studies in Harp Performance</p>
+                  <p className="font-medium">Boston University</p>
+                  <p className="text-gray-600">Master of Music in Music Education</p>
                 </li>
                 <li>
-                  <p className="font-medium">Tanglewood Music Center</p>
-                  <p className="text-gray-600">Fellowship Program in Chamber Music</p>
+                  <p className="font-medium">Current Position</p>
+                  <p className="text-gray-600">Adjunct Faculty in Harp at Tulsa Community College</p>
                 </li>
               </ul>
             </div>
@@ -93,42 +94,18 @@ const About = () => {
               <h4 className="font-serif text-xl text-harp-navy mb-3">Performance Experience</h4>
               <ul className="space-y-4">
                 <li>
+                  <p className="font-medium">Solo Performances</p>
+                  <p className="text-gray-600">Over 15 years of experience with weddings, memorials, banquets, and other special events</p>
+                </li>
+                <li>
                   <p className="font-medium">Orchestral</p>
-                  <p className="text-gray-600">Principal Harpist, Metropolitan Chamber Orchestra (2018-Present)</p>
+                  <p className="text-gray-600">Guest Harpist, Tulsa Community College Community Orchestra</p>
                 </li>
                 <li>
-                  <p className="font-medium">Chamber Music</p>
-                  <p className="text-gray-600">Founding member of Windborne Trio (flute, cello, harp)</p>
-                </li>
-                <li>
-                  <p className="font-medium">Solo Recitals</p>
-                  <p className="text-gray-600">Regular performances at Lincoln Center, Merkin Hall, and international harp festivals</p>
+                  <p className="font-medium">Competitive</p>
+                  <p className="text-gray-600">Participation in local and state competitions throughout formative years</p>
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
-        
-        <div>
-          <SectionHeading>Instruments</SectionHeading>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div>
-              <img src="/lovable-uploads/51eb80b4-8203-4dd3-8422-558925feec65.png" alt="Concert grand harp" className="rounded-lg shadow-md w-full h-auto object-cover mb-4" />
-              <h4 className="font-serif text-xl text-harp-navy mb-2">Concert Grand Harp</h4>
-              <p className="text-gray-600">
-                Lyon & Healy Style 23 Gold with extended soundboard. This magnificent instrument produces a warm, 
-                robust sound perfect for recitals, orchestral work, and larger venues.
-              </p>
-            </div>
-            
-            <div>
-              <img src="/lovable-uploads/cdb38149-6867-4564-b5e6-c181d3069609.png" alt="Formal performance setting" className="rounded-lg shadow-md w-full h-auto object-cover mb-4" />
-              <h4 className="font-serif text-xl text-harp-navy mb-2">Celtic Lever Harp</h4>
-              <p className="text-gray-600">
-                Dusty Strings FH36S, 36 strings. This versatile lever harp is ideal for Celtic music, folk traditions, 
-                intimate gatherings, and outdoor events where a pedal harp might be impractical.
-              </p>
             </div>
           </div>
         </div>

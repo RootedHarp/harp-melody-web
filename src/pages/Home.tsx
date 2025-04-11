@@ -11,7 +11,7 @@ const Home = () => {
       <section className="pt-24 pb-20 hero-pattern">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-harp-navy mb-6 animate-fade-in">
-            Abiding <span className="text-harp-gold">Harp</span>
+            Rooted <span className="text-harp-gold">Harp</span>
           </h1>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
             "I am the vine; you are the branches. If you remain in me and I in you, 
@@ -101,7 +101,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Share Your Experience Section (Replacing Testimonials) */}
+      {/* Share Your Experience Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading subtitle="Share your thoughts about your experience">

@@ -97,13 +97,14 @@ const Services = () => {
               <h3 className="font-serif text-2xl text-harp-navy mb-4">Instruction Services</h3>
               <p className="text-gray-600 mb-6">
                 Personalized harp lessons designed to nurture technical skill, musical expression, and a lifelong love 
-                of this beautiful instrument. Lessons are available online or in-person at the student's home, providing
+                of this beautiful instrument. As an Adjunct Faculty in Harp at Tulsa Community College, I bring professional 
+                expertise to every lesson. Classes are available online or in the student's home, providing
                 flexible options to suit your schedule and learning style.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <BookOpen className="h-5 w-5 text-harp-gold mt-0.5 mr-2" />
-                  <span>Private lessons for beginning through advanced students</span>
+                  <span>Private lessons for students of all ages and skill levels</span>
                 </li>
                 <li className="flex items-start">
                   <BookOpen className="h-5 w-5 text-harp-gold mt-0.5 mr-2" />
@@ -130,27 +131,18 @@ const Services = () => {
             </div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Card title="For Children" className="h-full">
-              <p>
-                Age-appropriate instruction for young students (typically age 7+), focusing on fundamentals, 
-                reading music, and building a strong technical foundation through engaging material.
-              </p>
-            </Card>
-            
-            <Card title="For Adults" className="h-full">
-              <p>
-                Whether you're a beginner fulfilling a lifelong dream or returning to the harp after a hiatus, 
-                lessons are tailored to your goals and learning style.
-              </p>
-            </Card>
-            
-            <Card title="For Advanced Students" className="h-full">
-              <p>
-                Intensive study of advanced technique, interpretation, and repertoire for serious students pursuing 
-                pre-professional training or preparing for competitions.
-              </p>
-            </Card>
+          <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+            <h4 className="font-serif text-xl text-harp-navy mb-4">Student Focus</h4>
+            <p className="text-gray-600 mb-4">
+              While I welcome students of all ages, I particularly enjoy working with teenagers and adults. My teaching approach 
+              is adaptable to various learning styles, and I take special care to match repertoire with each student's interests 
+              and goals. Whether you're fulfilling a lifelong dream to play the harp or continuing your musical development, 
+              I'm committed to making your learning experience enjoyable and rewarding.
+            </p>
+            <p className="text-gray-600">
+              As someone who has experienced and overcome learning challenges, I'm especially adept at finding creative solutions 
+              for students with unique needs or circumstances. Every student is different, and I tailor my teaching methods accordingly.
+            </p>
           </div>
         </div>
         
