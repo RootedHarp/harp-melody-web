@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Music } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <Music className="h-8 w-8 text-harp-gold" />
+              <img src="/lovable-uploads/9f60ef47-09f6-444f-8242-d656c7d2c338.png" alt="Rooted Harp Logo" className="h-10 w-auto" />
               <span className="font-serif text-xl text-harp-navy">Rooted Harp</span>
             </Link>
           </div>

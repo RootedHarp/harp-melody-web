@@ -9,7 +9,7 @@ const About = () => {
         
         <div className="flex flex-col md:flex-row gap-12 mb-16">
           <div className="md:w-1/3">
-            <img src="/lovable-uploads/2d82c718-6b82-456f-87dc-854ae1bbe5b0.png" alt="Christine Welden with harp" className="rounded-lg shadow-md w-full h-auto object-cover" />
+            <img src="/lovable-uploads/51eb80b4-8203-4dd3-8422-558925feec65.png" alt="Christine Welden with harp" className="rounded-lg shadow-md w-full h-auto object-cover" />
           </div>
           
           <div className="md:w-2/3 vine-border pl-6">

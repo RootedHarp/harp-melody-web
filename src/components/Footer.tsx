@@ -1,5 +1,5 @@
 
-import { Mail, Phone, MapPin, Music } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Logo and brief intro */}
           <div className="flex flex-col items-center md:items-start">
             <div className="flex items-center space-x-2 mb-4">
-              <Music className="h-8 w-8 text-harp-gold" />
+              <img src="/lovable-uploads/9f60ef47-09f6-444f-8242-d656c7d2c338.png" alt="Rooted Harp Logo" className="h-10 w-auto" />
               <span className="font-serif text-xl">Rooted Harp</span>
             </div>
             <p className="text-sm text-gray-300 text-center md:text-left">
