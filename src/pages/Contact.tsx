@@ -24,7 +24,7 @@ const Contact = () => {
                 <Mail className="h-5 w-5 text-harp-gold mt-1 mr-3" />
                 <div>
                   <h4 className="font-medium mb-1">Email</h4>
-                  <p className="text-gray-600">contact@harpelegance.com</p>
+                  <p className="text-gray-600">RootedHarpist@gmail.com</p>
                 </div>
               </div>
               

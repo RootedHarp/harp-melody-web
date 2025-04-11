@@ -1,3 +1,4 @@
+
 import { Music, BookOpen, FileMusic } from 'lucide-react';
 import SectionHeading from '@/components/SectionHeading';
 import Card from '@/components/Card';
@@ -14,8 +15,7 @@ const Home = () => {
             Rooted <span className="text-harp-gold">Harp</span>
           </h1>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            "I am the vine; you are the branches. If you remain in me and I in you, 
-            you will bear much fruit..." — John 15:5
+            Professional harp performances, instruction, and arrangements in Tulsa, Oklahoma
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>
             <Button to="/contact" variant="primary" size="lg">
@@ -87,7 +87,7 @@ const Home = () => {
               />
             </div>
             <div className="md:w-1/2 vine-border pl-6">
-              <h2 className="font-serif text-3xl text-harp-navy mb-4">Experience the Divine through Harp Music</h2>
+              <h2 className="font-serif text-3xl text-harp-navy mb-4">Elegant Harp Music for Every Occasion</h2>
               <p className="text-gray-600 mb-6">
                 The harp creates an atmosphere of elegance and tranquility that transforms any event into a 
                 memorable experience. With a repertoire spanning sacred, classical, contemporary, folk, and popular music, 
