@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import SectionHeading from '@/components/SectionHeading';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -22,7 +21,8 @@ interface GalleryItem {
 const Gallery = () => {
   const [selectedItem, setSelectedItem] = useState<GalleryItem | null>(null);
 
-  // Updated gallery items with just source URLs
+  // Updated gallery items with logo as placeholder
+  const logoSource = '/lovable-uploads/9f60ef47-09f6-444f-8242-d656c7d2c338.png';
   const galleryItems: GalleryItem[] = [
     {
       id: 1,
@@ -32,7 +32,7 @@ const Gallery = () => {
     {
       id: 2,
       type: 'photo',
-      source: '/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png', // Updated to use logo image
+      source: logoSource, // Replaced with logo
     },
     {
       id: 3,
@@ -42,7 +42,7 @@ const Gallery = () => {
     {
       id: 4,
       type: 'photo',
-      source: '/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png', // Updated to use logo image
+      source: logoSource, // Replaced with logo
     },
     {
       id: 5,
@@ -52,31 +52,31 @@ const Gallery = () => {
     {
       id: 6,
       type: 'photo',
-      source: '/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png',
+      source: logoSource, // Replaced with logo
     },
     {
       id: 7,
       type: 'video',
       source: 'https://www.youtube.com/embed/Qfv-e6SMiy0',
-      thumbnail: '/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png', // Updated thumbnail
+      thumbnail: logoSource, // Updated thumbnail
     },
     {
       id: 8,
       type: 'video',
       source: 'https://www.youtube.com/embed/g4NsWcG8E-E',
-      thumbnail: '/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png', // Updated thumbnail
+      thumbnail: logoSource, // Updated thumbnail
     },
     {
       id: 9,
       type: 'video',
       source: 'https://www.youtube.com/embed/jfFr9RlJYbA',
-      thumbnail: '/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png', // Updated thumbnail
+      thumbnail: logoSource, // Updated thumbnail
     },
     {
       id: 10,
       type: 'audio',
       source: 'https://soundcloud.com/user-796974546/harp-song',
-      thumbnail: '/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png', // Updated thumbnail
+      thumbnail: logoSource, // Updated thumbnail
     },
   ];
 
