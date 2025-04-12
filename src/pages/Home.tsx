@@ -1,4 +1,3 @@
-
 import { Music, BookOpen, FileMusic } from 'lucide-react';
 import SectionHeading from '@/components/SectionHeading';
 import Card from '@/components/Card';
@@ -11,9 +10,12 @@ const Home = () => {
       {/* Hero Section */}
       <section className="pt-24 pb-20 hero-pattern">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-harp-navy mb-6 animate-fade-in">
+          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-harp-navy mb-2 animate-fade-in">
             Rooted <span className="text-harp-gold">Harp</span>
           </h1>
+          <h2 className="text-2xl md:text-3xl text-gray-700 mb-6 animate-fade-in" style={{ animationDelay: "0.1s" }}>
+            Christine Welden, Harpist
+          </h2>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
             Professional harp performances, instruction, and arrangements in Tulsa, Oklahoma
           </p>
