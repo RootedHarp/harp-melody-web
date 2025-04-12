@@ -32,7 +32,7 @@ const Gallery = () => {
     {
       id: 2,
       type: 'photo',
-      source: '/lovable-uploads/40802da6-41fa-40e4-a204-5cd6147e90ab.png',
+      source: '/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png', // Updated to use logo image
     },
     {
       id: 3,
@@ -42,7 +42,7 @@ const Gallery = () => {
     {
       id: 4,
       type: 'photo',
-      source: '/lovable-uploads/8c2062b9-018d-4129-be61-7389fcae3dcd.png',
+      source: '/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png', // Updated to use logo image
     },
     {
       id: 5,
@@ -58,25 +58,25 @@ const Gallery = () => {
       id: 7,
       type: 'video',
       source: 'https://www.youtube.com/embed/Qfv-e6SMiy0',
-      thumbnail: '/lovable-uploads/40802da6-41fa-40e4-a204-5cd6147e90ab.png',
+      thumbnail: '/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png', // Updated thumbnail
     },
     {
       id: 8,
       type: 'video',
       source: 'https://www.youtube.com/embed/g4NsWcG8E-E',
-      thumbnail: '/lovable-uploads/cdb38149-6867-4564-b5e6-c181d3069609.png',
+      thumbnail: '/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png', // Updated thumbnail
     },
     {
       id: 9,
       type: 'video',
       source: 'https://www.youtube.com/embed/jfFr9RlJYbA',
-      thumbnail: '/lovable-uploads/8c2062b9-018d-4129-be61-7389fcae3dcd.png',
+      thumbnail: '/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png', // Updated thumbnail
     },
     {
       id: 10,
       type: 'audio',
       source: 'https://soundcloud.com/user-796974546/harp-song',
-      thumbnail: '/lovable-uploads/2d82c718-6b82-456f-87dc-854ae1bbe5b0.png',
+      thumbnail: '/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png', // Updated thumbnail
     },
   ];
 
@@ -158,27 +158,16 @@ const Gallery = () => {
           </TabsContent>
           
           <TabsContent value="audio">
-            <div className="grid grid-cols-1 gap-6">
-              {audio.map((item) => (
-                <div key={item.id} className="overflow-hidden rounded-lg shadow-md bg-white p-6">
-                  <div className="flex flex-col md:flex-row gap-6 items-center">
-                    <img 
-                      src={item.thumbnail} 
-                      alt="Harp audio thumbnail" 
-                      className="w-full md:w-48 h-48 object-cover rounded-md shadow-sm"
-                    />
-                    <div className="flex-1">
-                      <iframe 
-                        width="100%" 
-                        height="120" 
-                        scrolling="no" 
-                        frameBorder="no" 
-                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/336859040&color=%23d4af37&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-                      ></iframe>
-                    </div>
-                  </div>
-                </div>
-              ))}
+            <div className="flex flex-col items-center justify-center p-12 bg-gray-50 rounded-lg">
+              <img 
+                src="/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png" 
+                alt="Rooted Harp Logo" 
+                className="w-32 h-32 mb-8 opacity-50"
+              />
+              <h3 className="text-3xl font-serif text-harp-navy mb-4">Audio Coming Soon</h3>
+              <p className="text-gray-600 text-center max-w-md">
+                Audio recordings are currently being prepared and will be available soon. Please check back later!
+              </p>
             </div>
           </TabsContent>
         </Tabs>

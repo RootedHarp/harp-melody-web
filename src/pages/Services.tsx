@@ -1,3 +1,4 @@
+
 import { CalendarDays, BookOpen, FileMusic, Users, Clock, CreditCard } from 'lucide-react';
 import SectionHeading from '@/components/SectionHeading';
 import Card from '@/components/Card';
@@ -47,7 +48,7 @@ const Services = () => {
               </div>
             </div>
             <div>
-              <img src="https://images.unsplash.com/photo-1448422221562-104930d4993e?q=80&w=2070&auto=format&fit=crop" alt="Harp performance" className="rounded-lg shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png" alt="Rooted Harp" className="rounded-lg shadow-lg w-full h-auto" />
             </div>
           </div>
           
@@ -91,7 +92,7 @@ const Services = () => {
         <div className="mb-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
             <div className="order-2 md:order-1">
-              <img src="https://images.unsplash.com/photo-1598978554684-49c47ae19198?q=80&w=2070&auto=format&fit=crop" alt="Harp lesson" className="rounded-lg shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png" alt="Harp instruction" className="rounded-lg shadow-lg w-full h-auto" />
             </div>
             <div className="order-1 md:order-2">
               <h3 className="font-serif text-2xl text-harp-navy mb-4">Instruction Services</h3>
@@ -185,7 +186,7 @@ const Services = () => {
               </div>
             </div>
             <div>
-              <img src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?q=80&w=2070&auto=format&fit=crop" alt="Sheet music with harp" className="rounded-lg shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png" alt="Harp arrangement services" className="rounded-lg shadow-lg w-full h-auto" />
             </div>
           </div>
           
