@@ -93,7 +93,7 @@ const Services = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
             <div className="order-2 md:order-1">
               <img 
-                src="/lovable-uploads/748e97c6-5190-43a1-b500-756f0e15b841.png" 
+                src="/lovable-uploads/2aacbbb7-8623-4974-91a1-bd86e4bcbd69.png" 
                 alt="Harp instruction" 
                 className="rounded-lg shadow-lg w-full h-auto" 
               />
