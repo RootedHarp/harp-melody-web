@@ -121,10 +121,6 @@ const Services = () => {
                 </li>
                 <li className="flex items-start">
                   <BookOpen className="h-5 w-5 text-harp-gold mt-0.5 mr-2" />
-                  <span>Technique workshops and masterclasses</span>
-                </li>
-                <li className="flex items-start">
-                  <BookOpen className="h-5 w-5 text-harp-gold mt-0.5 mr-2" />
                   <span>Performance preparation and audition coaching</span>
                 </li>
               </ul>

@@ -1,4 +1,3 @@
-
 import SectionHeading from '@/components/SectionHeading';
 const About = () => {
   return <div className="pt-24 pb-16">
@@ -55,17 +54,10 @@ const About = () => {
             </p>
             
             <p className="text-gray-600">
-              I have told you about my vision not so you feel sorry for me, please don't! Instead, I want you to know my journey. 
-              Having a visual impairment has made learning music a challenge sometimes, and I and my teachers have had to be creative. 
-              Now, I enjoy the challenge of teaching in unusual situations, so if my student encounters a challenge - either temporary or 
-              seemingly permanent - we will work together to find creative solutions.
+              In the world outside of music (if one exists!), I work in Higher Education Administration, enjoy teaching at church, 
+              being with family, and anything to do with horses. I don't have too much time for hobbies, so that's about it.
             </p>
           </div>
-          
-          <p className="text-gray-600 italic text-center">
-            "In the world outside of music (if one exists!), I work in Higher Education Administration, enjoy teaching at church, 
-            being with family, and anything to do with horses. I don't have too much time for hobbies, so that's about it."
-          </p>
         </div>
         
         <div>
