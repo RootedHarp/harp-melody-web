@@ -88,12 +88,12 @@ const Services = () => {
           </div>
         </div>
         
-        {/* Teaching Services */}
+        {/* Instruction Services */}
         <div className="mb-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
             <div className="order-2 md:order-1">
               <img 
-                src="/lovable-uploads/2aacbbb7-8623-4974-91a1-bd86e4bcbd69.png" 
+                src="/lovable-uploads/748e97c6-5190-43a1-b500-756f0e15b841.png" 
                 alt="Harp instruction" 
                 className="rounded-lg shadow-lg w-full h-auto" 
               />
@@ -190,7 +190,11 @@ const Services = () => {
               </div>
             </div>
             <div>
-              <img src="/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png" alt="Harp arrangement services" className="rounded-lg shadow-lg w-full h-auto" />
+              <img 
+                src="/lovable-uploads/748e97c6-5190-43a1-b500-756f0e15b841.png" 
+                alt="Harp arrangement services" 
+                className="rounded-lg shadow-lg w-full h-auto" 
+              />
             </div>
           </div>
           
