@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import SectionHeading from '@/components/SectionHeading';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -35,17 +36,17 @@ const Gallery = () => {
     {
       id: 3,
       type: 'photo',
-      source: '/lovable-uploads/1e2c05fa-e415-432a-a266-d71ea6c3720f.png',
+      source: '/lovable-uploads/3bf6be33-97e0-409d-bde3-c62221ac8955.png', // New image added here
     },
     {
       id: 4,
       type: 'photo',
-      source: '/lovable-uploads/cdb38149-6867-4564-b5e6-c181d3069609.png',
+      source: '/lovable-uploads/1e2c05fa-e415-432a-a266-d71ea6c3720f.png',
     },
     {
       id: 5,
       type: 'photo',
-      source: '/lovable-uploads/0bbe1690-f162-459b-869a-ea29697b6908.png',
+      source: '/lovable-uploads/cdb38149-6867-4564-b5e6-c181d3069609.png',
     },
     {
       id: 6,
