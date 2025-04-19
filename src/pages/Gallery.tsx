@@ -10,7 +10,6 @@ import {
   CarouselPrevious
 } from "@/components/ui/carousel";
 
-// Define our gallery item type
 interface GalleryItem {
   id: number;
   type: 'photo' | 'video' | 'audio';
@@ -21,7 +20,6 @@ interface GalleryItem {
 const Gallery = () => {
   const [selectedItem, setSelectedItem] = useState<GalleryItem | null>(null);
 
-  // Updated gallery items with logo as placeholder
   const logoSource = '/lovable-uploads/9f60ef47-09f6-444f-8242-d656c7d2c338.png';
   const galleryItems: GalleryItem[] = [
     {
@@ -32,55 +30,54 @@ const Gallery = () => {
     {
       id: 2,
       type: 'photo',
-      source: logoSource, // Replaced with logo
+      source: '/lovable-uploads/cdb38149-6867-4564-b5e6-c181d3069609.png',
     },
     {
       id: 3,
       type: 'photo',
-      source: '/lovable-uploads/cdb38149-6867-4564-b5e6-c181d3069609.png',
+      source: '/lovable-uploads/51eb80b4-8203-4dd3-8422-558925feec65.png',
     },
     {
       id: 4,
       type: 'photo',
-      source: logoSource, // Replaced with logo
+      source: logoSource,
     },
     {
       id: 5,
       type: 'photo',
-      source: '/lovable-uploads/51eb80b4-8203-4dd3-8422-558925feec65.png',
+      source: '/lovable-uploads/1e2c05fa-e415-432a-a266-d71ea6c3720f.png',
     },
     {
       id: 6,
       type: 'photo',
-      source: logoSource, // Replaced with logo
+      source: logoSource,
     },
     {
       id: 7,
       type: 'video',
       source: 'https://www.youtube.com/embed/Qfv-e6SMiy0',
-      thumbnail: logoSource, // Updated thumbnail
+      thumbnail: logoSource,
     },
     {
       id: 8,
       type: 'video',
       source: 'https://www.youtube.com/embed/g4NsWcG8E-E',
-      thumbnail: logoSource, // Updated thumbnail
+      thumbnail: logoSource,
     },
     {
       id: 9,
       type: 'video',
       source: 'https://www.youtube.com/embed/jfFr9RlJYbA',
-      thumbnail: logoSource, // Updated thumbnail
+      thumbnail: logoSource,
     },
     {
       id: 10,
       type: 'audio',
       source: 'https://soundcloud.com/user-796974546/harp-song',
-      thumbnail: logoSource, // Updated thumbnail
+      thumbnail: logoSource,
     },
   ];
 
-  // Filter items by type
   const photos = galleryItems.filter(item => item.type === 'photo');
   const videos = galleryItems.filter(item => item.type === 'video');
   const audio = galleryItems.filter(item => item.type === 'audio');
