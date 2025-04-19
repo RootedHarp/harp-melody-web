@@ -99,10 +99,16 @@ const Gallery = () => {
           
           <TabsContent value="photos">
             <div className="mx-auto max-w-5xl">
-              <Carousel className="w-full">
+              <Carousel 
+                className="w-full"
+                opts={{
+                  align: "start",
+                  loop: true,
+                }}
+              >
                 <CarouselContent>
                   {photos.map((item) => (
-                    <CarouselItem key={item.id}>
+                    <CarouselItem key={item.id} className="md:basis-1/1 lg:basis-1/1">
                       <Dialog>
                         <DialogTrigger asChild>
                           <div 
