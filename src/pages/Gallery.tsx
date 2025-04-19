@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import SectionHeading from '@/components/SectionHeading';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { 
   Carousel,
   CarouselContent,
@@ -30,22 +30,22 @@ const Gallery = () => {
     {
       id: 2,
       type: 'photo',
-      source: '/lovable-uploads/cdb38149-6867-4564-b5e6-c181d3069609.png',
+      source: '/lovable-uploads/51eb80b4-8203-4dd3-8422-558925feec65.png',
     },
     {
       id: 3,
       type: 'photo',
-      source: '/lovable-uploads/51eb80b4-8203-4dd3-8422-558925feec65.png',
+      source: '/lovable-uploads/1e2c05fa-e415-432a-a266-d71ea6c3720f.png',
     },
     {
       id: 4,
       type: 'photo',
-      source: logoSource,
+      source: '/lovable-uploads/cdb38149-6867-4564-b5e6-c181d3069609.png',
     },
     {
       id: 5,
       type: 'photo',
-      source: '/lovable-uploads/1e2c05fa-e415-432a-a266-d71ea6c3720f.png',
+      source: '/lovable-uploads/0bbe1690-f162-459b-869a-ea29697b6908.png',
     },
     {
       id: 6,
@@ -118,6 +118,7 @@ const Gallery = () => {
                           </div>
                         </DialogTrigger>
                         <DialogContent className="max-w-4xl p-0 overflow-hidden">
+                          <DialogTitle className="sr-only">Harp Performance Image</DialogTitle>
                           <img 
                             src={item.source} 
                             alt="Harp performance" 
