@@ -36,7 +36,7 @@ const Gallery = () => {
     {
       id: 3,
       type: 'photo',
-      source: '/lovable-uploads/3bf6be33-97e0-409d-bde3-c62221ac8955.png', // New image added here
+      source: '/lovable-uploads/3bf6be33-97e0-409d-bde3-c62221ac8955.png',
     },
     {
       id: 4,
