@@ -36,12 +36,12 @@ const Gallery = () => {
     {
       id: 3,
       type: 'photo',
-      source: '/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png', // Replaced with an available image
+      source: '/lovable-uploads/3bf6be33-97e0-409d-bde3-c62221ac8955.png',
     },
     {
       id: 4,
       type: 'photo',
-      source: '/lovable-uploads/cdb38149-6867-4564-b5e6-c181d3069609.png', // Replaced with an available image
+      source: '/lovable-uploads/1e2c05fa-e415-432a-a266-d71ea6c3720f.png',
     },
     {
       id: 5,
@@ -102,7 +102,7 @@ const Gallery = () => {
               <Carousel 
                 className="w-full"
                 opts={{
-                  align: "center",
+                  align: "start",
                   loop: true,
                 }}
               >
