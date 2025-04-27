@@ -1,0 +1,38 @@
+name: Create Published Branch
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_branch:
+        description: 'Source branch to create published branch from'
+        required: true
+        default: 'main'
+        type: string
+
+jobs:
+  create-branch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.source_branch }}
+      
+      - name: Create or update published branch
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          
+          # Check if published branch exists
+          if git ls-remote --heads origin published | grep published; then
+            echo "Published branch exists, updating it..."
+            git checkout -b published origin/published || git checkout -b published
+            git merge ${{ github.event.inputs.source_branch }} -m "Merge ${{ github.event.inputs.source_branch }} into published via GitHub Actions"
+          else
+            echo "Creating new published branch..."
+            git checkout -b published
+          fi
+          
+          git push -u origin published
