@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <img src="/lovable-uploads/0bbe1690-f162-459b-869a-ea29697b6908.png" alt="Rooted Harp Logo" className="h-10 w-auto" />
+              <img src="/img/0bbe1690-f162-459b-869a-ea29697b6908.png" alt="Rooted Harp Logo" className="h-10 w-auto" />
               <span className="font-serif text-xl text-harp-navy">Rooted Harp</span>
             </Link>
           </div>

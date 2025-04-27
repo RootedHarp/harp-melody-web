@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Logo and brief intro */}
           <div className="flex flex-col items-center md:items-start">
             <div className="flex items-center space-x-2 mb-4">
-              <img src="/lovable-uploads/0bbe1690-f162-459b-869a-ea29697b6908.png" alt="Rooted Harp Logo" className="h-10 w-auto" />
+              <img src="/img/0bbe1690-f162-459b-869a-ea29697b6908.png" alt="Rooted Harp Logo" className="h-10 w-auto" />
               <span className="font-serif text-xl">Rooted Harp</span>
             </div>
             <p className="text-sm text-gray-300 text-center md:text-left">

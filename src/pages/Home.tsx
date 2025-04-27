@@ -83,7 +83,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
               <img 
-                src="/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png" 
+                src="/img/9ac2c2ff-0fc5-4371-898f-25058699beaf.png"
                 alt="Christine Welden with harp" 
                 className="rounded-lg shadow-lg w-full h-auto object-cover" 
               />

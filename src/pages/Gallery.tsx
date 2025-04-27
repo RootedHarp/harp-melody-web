@@ -21,32 +21,32 @@ interface GalleryItem {
 const Gallery = () => {
   const [selectedItem, setSelectedItem] = useState<GalleryItem | null>(null);
 
-  const logoSource = '/lovable-uploads/9f60ef47-09f6-444f-8242-d656c7d2c338.png';
+  const logoSource = '/img/9f60ef47-09f6-444f-8242-d656c7d2c338.png';
   const galleryItems: GalleryItem[] = [
     {
       id: 1,
       type: 'photo',
-      source: '/lovable-uploads/2d82c718-6b82-456f-87dc-854ae1bbe5b0.png',
+      source: '/img/2d82c718-6b82-456f-87dc-854ae1bbe5b0.png',
     },
     {
       id: 2,
       type: 'photo',
-      source: '/lovable-uploads/51eb80b4-8203-4dd3-8422-558925feec65.png',
+      source: '/img/51eb80b4-8203-4dd3-8422-558925feec65.png',
     },
     {
       id: 3,
       type: 'photo',
-      source: '/lovable-uploads/3bf6be33-97e0-409d-bde3-c62221ac8955.png',
+      source: '/img/3bf6be33-97e0-409d-bde3-c62221ac8955.png',
     },
     {
       id: 4,
       type: 'photo',
-      source: '/lovable-uploads/1e2c05fa-e415-432a-a266-d71ea6c3720f.png',
+      source: '/img/1e2c05fa-e415-432a-a266-d71ea6c3720f.png',
     },
     {
       id: 5,
       type: 'photo',
-      source: '/lovable-uploads/cdb38149-6867-4564-b5e6-c181d3069609.png',
+      source: '/img/cdb38149-6867-4564-b5e6-c181d3069609.png',
     },
     {
       id: 6,
@@ -165,7 +165,7 @@ const Gallery = () => {
           <TabsContent value="audio">
             <div className="flex flex-col items-center justify-center p-12 bg-gray-50 rounded-lg">
               <img 
-                src="/lovable-uploads/9ac2c2ff-0fc5-4371-898f-25058699beaf.png" 
+                src="/img/9ac2c2ff-0fc5-4371-898f-25058699beaf.png"
                 alt="Rooted Harp Logo" 
                 className="w-32 h-32 mb-8 opacity-50"
               />
