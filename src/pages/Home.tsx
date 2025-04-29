@@ -3,6 +3,7 @@ import SectionHeading from '@/components/SectionHeading';
 import Card from '@/components/Card';
 import Button from '@/components/Button';
 import { Link } from 'react-router-dom';
+import { assetPath } from '@/lib/utils/assetPath';
 
 const Home = () => {
   return (
@@ -36,12 +37,12 @@ const Home = () => {
           <SectionHeading subtitle="Discover the range of musical services available to meet your needs">
             Services Offered
           </SectionHeading>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card 
-              title="Performances" 
+            <Card
+              title="Performances"
               icon={<Music size={36} />}
-              className="animate-fade-in" 
+              className="animate-fade-in"
               style={{ animationDelay: "0.1s" }}
             >
               <p>Professional harp music for weddings, corporate events, private parties, church services, and other special occasions.</p>
@@ -49,11 +50,11 @@ const Home = () => {
                 Learn more
               </Link>
             </Card>
-            
-            <Card 
-              title="Instruction" 
+
+            <Card
+              title="Instruction"
               icon={<BookOpen size={36} />}
-              className="animate-fade-in" 
+              className="animate-fade-in"
               style={{ animationDelay: "0.2s" }}
             >
               <p>Private harp lessons for students of all ages and skill levels, from beginners to advanced performers.</p>
@@ -61,11 +62,11 @@ const Home = () => {
                 Learn more
               </Link>
             </Card>
-            
-            <Card 
-              title="Arrangements" 
+
+            <Card
+              title="Arrangements"
               icon={<FileMusic size={36} />}
-              className="animate-fade-in" 
+              className="animate-fade-in"
               style={{ animationDelay: "0.3s" }}
             >
               <p>Custom music arrangements for harp, tailored to your preferences and technical requirements.</p>
@@ -82,17 +83,17 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
-              <img 
-                src="/img/9ac2c2ff-0fc5-4371-898f-25058699beaf.png"
-                alt="Christine Welden with harp" 
-                className="rounded-lg shadow-lg w-full h-auto object-cover" 
+              <img
+                src={assetPath("/img/9ac2c2ff-0fc5-4371-898f-25058699beaf.png")}
+                alt="Christine Welden with harp"
+                className="rounded-lg shadow-lg w-full h-auto object-cover"
               />
             </div>
             <div className="md:w-1/2 vine-border pl-6">
               <h2 className="font-serif text-3xl text-harp-navy mb-4">Elegant Harp Music for Every Occasion</h2>
               <p className="text-gray-600 mb-6">
-                The harp creates an atmosphere of elegance and tranquility that transforms any event into a 
-                memorable experience. With a repertoire spanning sacred, classical, contemporary, folk, and popular music, 
+                The harp creates an atmosphere of elegance and tranquility that transforms any event into a
+                memorable experience. With a repertoire spanning sacred, classical, contemporary, folk, and popular music,
                 I can tailor performances to perfectly complement your occasion.
               </p>
               <Button to="/gallery" variant="primary">
@@ -109,18 +110,18 @@ const Home = () => {
           <SectionHeading subtitle="Share your thoughts about your experience">
             Share Your Experience
           </SectionHeading>
-          
+
           <div className="bg-gray-50 p-8 rounded-lg shadow-sm text-center">
             <p className="text-gray-600 mb-6">
-              Have you worked with me for a performance, taken lessons, or used one of my arrangements? 
-              I'd love to hear about your experience! Your feedback helps me improve my services 
+              Have you worked with me for a performance, taken lessons, or used one of my arrangements?
+              I'd love to hear about your experience! Your feedback helps me improve my services
               and helps others learn more about what I offer.
             </p>
             <Button to="/contact" variant="primary">
               Share Your Feedback
             </Button>
           </div>
-          
+
           <div className="text-center mt-10">
             <Button to="/contact" variant="secondary">
               Contact Me

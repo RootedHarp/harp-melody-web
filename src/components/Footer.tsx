@@ -1,9 +1,10 @@
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { assetPath } from '@/lib/utils/assetPath';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
+
   return (
     <footer className="bg-harp-navy text-white py-12">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -11,7 +12,7 @@ const Footer = () => {
           {/* Logo and brief intro */}
           <div className="flex flex-col items-center md:items-start">
             <div className="flex items-center space-x-2 mb-4">
-              <img src="/img/0bbe1690-f162-459b-869a-ea29697b6908.png" alt="Rooted Harp Logo" className="h-10 w-auto" />
+              <img src={assetPath("/img/0bbe1690-f162-459b-869a-ea29697b6908.png")} alt="Rooted Harp Logo" className="h-10 w-auto" />
               <span className="font-serif text-xl">Rooted Harp</span>
             </div>
             <p className="text-sm text-gray-300 text-center md:text-left">

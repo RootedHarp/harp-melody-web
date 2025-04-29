@@ -3,13 +3,14 @@ import { useState } from 'react';
 import SectionHeading from '@/components/SectionHeading';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
-import { 
+import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious
 } from "@/components/ui/carousel";
+import { assetPath } from '@/lib/utils/assetPath';
 
 interface GalleryItem {
   id: number;
@@ -21,32 +22,32 @@ interface GalleryItem {
 const Gallery = () => {
   const [selectedItem, setSelectedItem] = useState<GalleryItem | null>(null);
 
-  const logoSource = '/img/9f60ef47-09f6-444f-8242-d656c7d2c338.png';
+  const logoSource = assetPath('/img/9f60ef47-09f6-444f-8242-d656c7d2c338.png');
   const galleryItems: GalleryItem[] = [
     {
       id: 1,
       type: 'photo',
-      source: '/img/2d82c718-6b82-456f-87dc-854ae1bbe5b0.png',
+      source: assetPath('/img/2d82c718-6b82-456f-87dc-854ae1bbe5b0.png'),
     },
     {
       id: 2,
       type: 'photo',
-      source: '/img/51eb80b4-8203-4dd3-8422-558925feec65.png',
+      source: assetPath('/img/51eb80b4-8203-4dd3-8422-558925feec65.png'),
     },
     {
       id: 3,
       type: 'photo',
-      source: '/img/3bf6be33-97e0-409d-bde3-c62221ac8955.png',
+      source: assetPath('/img/3bf6be33-97e0-409d-bde3-c62221ac8955.png'),
     },
     {
       id: 4,
       type: 'photo',
-      source: '/img/1e2c05fa-e415-432a-a266-d71ea6c3720f.png',
+      source: assetPath('/img/1e2c05fa-e415-432a-a266-d71ea6c3720f.png'),
     },
     {
       id: 5,
       type: 'photo',
-      source: '/img/cdb38149-6867-4564-b5e6-c181d3069609.png',
+      source: assetPath('/img/cdb38149-6867-4564-b5e6-c181d3069609.png'),
     },
     {
       id: 6,
@@ -89,17 +90,17 @@ const Gallery = () => {
         <SectionHeading subtitle="Browse photos, videos, and recordings of performances and events">
           Gallery
         </SectionHeading>
-        
+
         <Tabs defaultValue="photos" className="mb-16">
           <TabsList className="mx-auto flex justify-center mb-8">
             <TabsTrigger value="photos" className="text-sm px-6">Photos</TabsTrigger>
             <TabsTrigger value="videos" className="text-sm px-6">Videos</TabsTrigger>
             <TabsTrigger value="audio" className="text-sm px-6">Audio</TabsTrigger>
           </TabsList>
-          
+
           <TabsContent value="photos">
             <div className="mx-auto max-w-5xl">
-              <Carousel 
+              <Carousel
                 className="w-full"
                 opts={{
                   align: "start",
@@ -111,14 +112,14 @@ const Gallery = () => {
                     <CarouselItem key={item.id} className="md:basis-1/1 lg:basis-1/1">
                       <Dialog>
                         <DialogTrigger asChild>
-                          <div 
+                          <div
                             className="overflow-hidden rounded-lg shadow-md cursor-pointer transform transition duration-300 hover:scale-[1.02] hover:shadow-lg"
                             onClick={() => setSelectedItem(item)}
                           >
                             <div className="relative h-96">
-                              <img 
-                                src={item.source} 
-                                alt="Harp performance" 
+                              <img
+                                src={item.source}
+                                alt="Harp performance"
                                 className="w-full h-full object-contain"
                               />
                             </div>
@@ -126,9 +127,9 @@ const Gallery = () => {
                         </DialogTrigger>
                         <DialogContent className="max-w-4xl p-0 overflow-hidden">
                           <DialogTitle className="sr-only">Harp Performance Image</DialogTitle>
-                          <img 
-                            src={item.source} 
-                            alt="Harp performance" 
+                          <img
+                            src={item.source}
+                            alt="Harp performance"
                             className="w-full h-auto"
                           />
                         </DialogContent>
@@ -143,16 +144,16 @@ const Gallery = () => {
               </Carousel>
             </div>
           </TabsContent>
-          
+
           <TabsContent value="videos">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {videos.map((item) => (
                 <div key={item.id} className="overflow-hidden rounded-lg shadow-md">
                   <div className="aspect-w-16 aspect-h-9">
-                    <iframe 
-                      src={item.source} 
+                    <iframe
+                      src={item.source}
                       title="Harp performance video"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
                       className="w-full h-96 border-0"
                     ></iframe>
@@ -161,12 +162,12 @@ const Gallery = () => {
               ))}
             </div>
           </TabsContent>
-          
+
           <TabsContent value="audio">
             <div className="flex flex-col items-center justify-center p-12 bg-gray-50 rounded-lg">
-              <img 
-                src="/img/9ac2c2ff-0fc5-4371-898f-25058699beaf.png"
-                alt="Rooted Harp Logo" 
+              <img
+                src={assetPath("/img/9ac2c2ff-0fc5-4371-898f-25058699beaf.png")}
+                alt="Rooted Harp Logo"
                 className="w-32 h-32 mb-8 opacity-50"
               />
               <h3 className="text-3xl font-serif text-harp-navy mb-4">Audio Coming Soon</h3>
@@ -176,14 +177,14 @@ const Gallery = () => {
             </div>
           </TabsContent>
         </Tabs>
-        
+
         <div className="bg-gray-50 rounded-lg p-8 text-center">
           <h3 className="font-serif text-2xl text-harp-navy mb-4">Interested in Booking a Performance?</h3>
           <p className="text-gray-600 max-w-2xl mx-auto mb-6">
             Whether you need elegant music for a special event or are interested in lessons, I'd love to discuss how we can work together.
           </p>
-          <a 
-            href="/contact" 
+          <a
+            href="/contact"
             className="inline-flex items-center justify-center px-6 py-3 bg-harp-gold text-white font-medium rounded-md hover:bg-amber-600 transition-colors"
           >
             Get in Touch

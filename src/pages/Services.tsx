@@ -2,6 +2,7 @@ import { CalendarDays, BookOpen, FileMusic, Users, Clock, CreditCard } from 'luc
 import SectionHeading from '@/components/SectionHeading';
 import Card from '@/components/Card';
 import Button from '@/components/Button';
+import { assetPath } from '@/lib/utils/assetPath';
 
 const Services = () => {
   return <div className="pt-24 pb-16">
@@ -9,7 +10,7 @@ const Services = () => {
         <SectionHeading subtitle="Professional harp services for every occasion">
           Services
         </SectionHeading>
-        
+
         {/* Performance Services */}
         <div className="mb-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
@@ -48,10 +49,10 @@ const Services = () => {
               </div>
             </div>
             <div>
-              <img src="/img/9ac2c2ff-0fc5-4371-898f-25058699beaf.png" alt="Rooted Harp" className="rounded-lg shadow-lg w-full h-auto" />
+              <img src={assetPath("/img/9ac2c2ff-0fc5-4371-898f-25058699beaf.png")} alt="Rooted Harp" className="rounded-lg shadow-lg w-full h-auto" />
             </div>
           </div>
-          
+
           <div className="bg-gray-50 p-6 md:p-8 rounded-lg">
             <h4 className="font-serif text-xl text-harp-navy mb-4">Additional Information</h4>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -61,22 +62,22 @@ const Services = () => {
                   Booking Timeline
                 </h5>
                 <p className="text-gray-600">
-                  For best availability, book 3-6 months in advance for weddings, 2-3 months for other events. 
+                  For best availability, book 3-6 months in advance for weddings, 2-3 months for other events.
                   Last-minute bookings accommodated when possible.
                 </p>
               </div>
-              
+
               <div className="flex flex-col">
                 <h5 className="font-medium flex items-center mb-2">
                   <CreditCard className="h-5 w-5 text-harp-gold mr-2" />
                   Pricing
                 </h5>
                 <p className="text-gray-600">
-                  Performance fees vary based on duration, location, and specific requirements. 
+                  Performance fees vary based on duration, location, and specific requirements.
                   Contact for a personalized quote based on your event details.
                 </p>
               </div>
-              
+
               <div className="flex flex-col">
                 <h5 className="font-medium flex items-center mb-2">
                   <Users className="h-5 w-5 text-harp-gold mr-2" />
@@ -87,22 +88,22 @@ const Services = () => {
             </div>
           </div>
         </div>
-        
+
         {/* Instruction Services */}
         <div className="mb-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
             <div className="order-2 md:order-1">
-              <img 
-                src="/img/2aacbbb7-8623-4974-91a1-bd86e4bcbd69.png"
-                alt="Harp instruction" 
-                className="rounded-lg shadow-lg w-full h-auto" 
+              <img
+                src={assetPath("/img/2aacbbb7-8623-4974-91a1-bd86e4bcbd69.png")}
+                alt="Harp instruction"
+                className="rounded-lg shadow-lg w-full h-auto"
               />
             </div>
             <div className="order-1 md:order-2">
               <h3 className="font-serif text-2xl text-harp-navy mb-4">Instruction Services</h3>
               <p className="text-gray-600 mb-6">
-                Personalized harp lessons designed to nurture technical skill, musical expression, and a lifelong love 
-                of this beautiful instrument. As an Adjunct Faculty in Harp at Tulsa Community College, I bring professional 
+                Personalized harp lessons designed to nurture technical skill, musical expression, and a lifelong love
+                of this beautiful instrument. As an Adjunct Faculty in Harp at Tulsa Community College, I bring professional
                 expertise to every lesson. Classes are available online or in the student's home, providing
                 flexible options to suit your schedule and learning style.
               </p>
@@ -131,30 +132,30 @@ const Services = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
             <h4 className="font-serif text-xl text-harp-navy mb-4">Student Focus</h4>
             <p className="text-gray-600 mb-4">
-              While I welcome students of all ages, I particularly enjoy working with teenagers and adults. My teaching approach 
-              is adaptable to various learning styles, and I take special care to match repertoire with each student's interests 
-              and goals. Whether you're fulfilling a lifelong dream to play the harp or continuing your musical development, 
+              While I welcome students of all ages, I particularly enjoy working with teenagers and adults. My teaching approach
+              is adaptable to various learning styles, and I take special care to match repertoire with each student's interests
+              and goals. Whether you're fulfilling a lifelong dream to play the harp or continuing your musical development,
               I'm committed to making your learning experience enjoyable and rewarding.
             </p>
             <p className="text-gray-600">
-              As someone who has experienced and overcome learning challenges, I'm especially adept at finding creative solutions 
+              As someone who has experienced and overcome learning challenges, I'm especially adept at finding creative solutions
               for students with unique needs or circumstances. Every student is different, and I tailor my teaching methods accordingly.
             </p>
           </div>
         </div>
-        
+
         {/* Arrangement Services */}
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
             <div>
               <h3 className="font-serif text-2xl text-harp-navy mb-4">Arrangement Services</h3>
               <p className="text-gray-600 mb-6">
-                Custom arrangements tailored to your technical abilities and musical preferences. Whether you need 
-                music for performance, teaching, or personal enjoyment, I can create harp arrangements that bring 
+                Custom arrangements tailored to your technical abilities and musical preferences. Whether you need
+                music for performance, teaching, or personal enjoyment, I can create harp arrangements that bring
                 your favorite pieces to life.
               </p>
               <ul className="space-y-3">
@@ -186,14 +187,14 @@ const Services = () => {
               </div>
             </div>
             <div>
-              <img 
-                src="/img/748e97c6-5190-43a1-b500-756f0e15b841.png"
-                alt="Harp arrangement services" 
-                className="rounded-lg shadow-lg w-full h-auto" 
+              <img
+                src={assetPath("/img/748e97c6-5190-43a1-b500-756f0e15b841.png")}
+                alt="Harp arrangement services"
+                className="rounded-lg shadow-lg w-full h-auto"
               />
             </div>
           </div>
-          
+
           <div className="bg-gray-50 p-6 md:p-8 rounded-lg">
             <h4 className="font-serif text-xl text-harp-navy mb-4">How the Process Works</h4>
             <ol className="space-y-4">

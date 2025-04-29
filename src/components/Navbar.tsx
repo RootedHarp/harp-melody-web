@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import { assetPath } from '@/lib/utils/assetPath';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,11 +24,11 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <img src="/img/0bbe1690-f162-459b-869a-ea29697b6908.png" alt="Rooted Harp Logo" className="h-10 w-auto" />
+              <img src={assetPath("/img/0bbe1690-f162-459b-869a-ea29697b6908.png")} alt="Rooted Harp Logo" className="h-10 w-auto" />
               <span className="font-serif text-xl text-harp-navy">Rooted Harp</span>
             </Link>
           </div>
-          
+
           <div className="hidden md:flex items-center space-x-8">
             {links.map((link) => (
               <Link
@@ -43,7 +44,7 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
-          
+
           <div className="flex items-center md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
