@@ -9,7 +9,7 @@ RESET='\033[0m'
 BOLD='\033[1m'
 
 # The base path to use (should match your repository name)
-BASE_PATH="/harp-melody-web/"
+BASE_PATH="/"
 
 echo -e "${BOLD}${BLUE}Building project with base path: ${BASE_PATH}${RESET}"
 

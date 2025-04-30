@@ -10,7 +10,7 @@ import path from 'path';
 import fs from 'fs';
 
 // The base path to use (should match your repository name)
-const BASE_PATH = '/harp-melody-web/';
+const BASE_PATH = '/';
 
 // Colors for console output
 const colors = {
